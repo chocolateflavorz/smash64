@@ -1,21 +1,17 @@
 html, body {
-  width: 100vh;
-  height: 100vh;
-}
-
-.container {
-  column-count: 2;
+  height: 90vh;
+  width: 90vw;
 }
 
 input {
   -webkit-appearance: none;
-  margin: 1px;
-  width: 16vh;
-  height: 16vh;
+  margin: auto;
+  width: 15vh;
+  height: 15vh;
   background-image: url('./CharacterIcon.png');
   background-size: 200% 1200%;
   outline: none;
-  box-shadow: 0px 2px 5px 1px gray;
+  box-shadow: 0px 2px 5px 2px gray;
 }
 
 #luigi {
@@ -28,7 +24,6 @@ input {
   background-position: -100% -0%;
 }
 
-
 #mario {
   transition: background-position ease-in-out .40s;
   background-position: -0% -100%;
@@ -38,7 +33,6 @@ input {
   transition: background-position ease-in-out .40s;
   background-position: -100% -100%;
 }
-
 
 #donkey {
   transition: background-position ease-in-out .40s;
