@@ -1,0 +1,142 @@
+html, body {
+  width: 100vh;
+  height: 100vh;
+}
+
+.container {
+  column-count: 2;
+}
+
+input {
+  -webkit-appearance: none;
+  margin: 1px;
+  width: 16vh;
+  height: 16vh;
+  background-image: url('./CharacterIcon.png');
+  background-size: 200% 1200%;
+  outline: none;
+  box-shadow: 0px 2px 5px 1px gray;
+}
+
+#luigi {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -0%;
+}
+
+#luigi:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -0%;
+}
+
+
+#mario {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -100%;
+}
+
+#mario:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -100%;
+}
+
+
+#donkey {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -200%;
+}
+
+#donkey:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -200%;
+}
+
+
+#link {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -300%;
+}
+
+#link:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -300%;
+}
+
+#samus {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -400%;
+}
+
+#samus:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -400%;
+}
+
+#falcon {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -500%;
+}
+
+#falcon:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -500%;
+}
+
+#ness {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -600%;
+}
+
+#ness:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -600%;
+}
+
+#yoshi {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -700%;
+}
+
+#yoshi:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -700%;
+}
+
+#kirby {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -800%;
+}
+
+#kirby:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -800%;
+}
+
+#fox {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -900%;
+}
+
+#fox:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -900%;
+}
+
+#pikachu {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -1000%;
+}
+
+#pikachu:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -1000%;
+}
+
+#purin {
+  transition: background-position ease-in-out .40s;
+  background-position: -0% -1100%;
+}
+
+#purin:checked {
+  transition: background-position ease-in-out .40s;
+  background-position: -100% -1100%;
+}
